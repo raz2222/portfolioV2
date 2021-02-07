@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aboutMain {
+  background-color: #25272a;
+  background-size: cover;
+  height: 120vh;
+}
+ul.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  padding: 0px;
+  margin: 20px 0px 0px;
+  overflow: hidden;
+  list-style: none;
+  color: #fff;
+  padding-right: 20px;
+  padding-left: 15px;
+}
+ul.skills-list li::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: var(--purple);
+  font-size: var(--fz-sm);
+  line-height: 12px;
+  padding-top: 3px;
+  padding-left: 15px;
+}
+ul.skills-list li::after {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: var(--purple);
+  font-size: var(--fz-sm);
+  line-height: 12px;
+  padding-left: 170px;
+  padding-top: 3px;
+}
+
+p#aboutHeader {
+  color: #6c6ed3;
+}
+*.circle-sm.tech {
+  margin: 0;
+  padding: 0;
+  background-color: #24282a;
+  border-radius: 50px;
+  background: #2c2f32;
+  box-shadow: 5px 5px 10px #25282b, -5px -5px 10px #33363a;
+  width: 55px;
+  height: 55px;
+  margin: 0px;
+  margin-left: 20px;
+}
+
+.jsLogoSm {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  position: absolute;
+}
+
+.reactLogoSm {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  position: absolute;
+}
+
+.htmlLogo {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  position: absolute;
+}
+
+.cssLogoSm {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  position: absolute;
+}
+
+.gitLogoSm {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  position: absolute;
+}
+
+.wordpressLogo {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  position: absolute;
+}

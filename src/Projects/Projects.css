@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.projectsMain {
+  background-color: #2c2f32;
+  background-size: cover;
+  height: 115vh;
+}
+
+.projectOverline {
+  margin: 10px 0px;
+  color: #6c6ed3;
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+  font-weight: 400;
+}
+.projectTitle {
+  color: var(--white);
+}
+
+.projectDescription p {
+  padding: 20px 0px;
+  background-color: transparent;
+  box-shadow: none;
+  color: #fff;
+}
+
+.projectContent {
+  padding: 25px 25px 20px 20px;
+  margin: -20px 20px 20px 20px;
+}
+
+.projectTechList {
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+
+.techList li {
+  margin: 0px 0px 5px 10px;
+  display: flex;
+  flex-direction: row;
+}
+.projectTechList {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+  margin: 25px 0px 10px;
+  padding: 0px;
+  list-style: none;
+  color: #fff;
+}
+
+.projectLinks {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  z-index: 2;
+  margin: 25px 0px 10px 240px;
+  padding: 0px;
+  list-style: none;
+  color: #fff;
+}
+.featherGithub {
+  color: #6c6ed3;
+  margin: 10px;
+  padding: 10px;
+}
+
+.featherExternalLink {
+  color: #6c6ed3;
+  margin: 10px;
+  padding: 10px;
+}
+
+img.weatherImg {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+}
+
+.productImage {
+  height: 200px;
+  width: 87%;
+  position: relative;
+  box-shadow: inset 0 0 0 1000px #5238e686;
+  opacity: 0.3;
+}
+
+.circle-sm-links {
+  border-radius: 50%;
+  background: #2c2f32;
+  box-shadow: 5px 5px 10px #25282b, -5px -5px 10px #33363a;
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  margin-left: -10px;
+}
+
+.projectCard {
+  border-radius: 15px;
+  background: #2c2f32;
+  box-shadow: 5px 5px 10px #25272a, -5px -5px 10px #33373a;
+  width: 87%;
+  height: 450px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+box-shadow: inset 5px 5px 10px #25272a, inset -5px -5px 10px #33373a;
+
+.circle-sm-links:active {
+  box-shadow: inset 5px 5px 10px #25272a, inset -5px -5px 10px #33373a;
+}
