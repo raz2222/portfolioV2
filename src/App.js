@@ -9,7 +9,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
 import Reactlogo from "./Assets/reactLogo.png";
 import jslogo from "./Assets/jsLogo.png";
-import gitlogo from "./Assets/gitlogo.png";
+import gitlogo from "./Assets/gitLogo.png";
 import razImg from "./Assets/razImage.png";
 import Mail from "./Mail/Mail";
 
