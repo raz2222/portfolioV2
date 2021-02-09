@@ -104,10 +104,9 @@ img.weatherImg {
   border-radius: 15px;
   background: #2c2f32;
   box-shadow: 5px 5px 10px #25272a, -5px -5px 10px #33373a;
-  width: 87%;
-  height: 450px;
-  position: absolute;
-  margin-top: 20px;
+  width: 300px;
+  height: 550px;
+  position: relative;
 }
 
 .circle-sm-links:active {
