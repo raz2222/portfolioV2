@@ -59,8 +59,8 @@
   flex-wrap: nowrap;
   position: relative;
   z-index: 2;
-  margin: 25px 0px 10px 240px;
-  padding: 0px;
+  float: right;
+  padding-top: 10px;
   list-style: none;
   color: #fff;
 }
@@ -97,18 +97,28 @@ img.weatherImg {
   width: 50px;
   height: 50px;
   margin: 0px;
-  margin-left: -10px;
+  margin-left: 15px;
 }
 
 .projectCard {
   border-radius: 15px;
   background: #2c2f32;
   box-shadow: 5px 5px 10px #25272a, -5px -5px 10px #33373a;
-  width: 300px;
-  height: 550px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: 20px 20px 20px 20px;
 }
 
+.projectCard {
+  border-radius: 15px;
+  background: #2c2f32;
+  box-shadow: 5px 5px 10px #25272a, -5px -5px 10px #33373a;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: 20px 20px 20px 20px;
+}
 .circle-sm-links:active {
   box-shadow: inset 5px 5px 10px #25272a, inset -5px -5px 10px #33373a;
 }

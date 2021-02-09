@@ -21,7 +21,10 @@ function Contact(props) {
               want to say hi.
             </p>
             <h2>
-              Start by <a href="mailto:razavramov2@gmail.com">saying hi.</a>
+              Start by{" "}
+              <a id="button" href="mailto:razavramov2@gmail.com">
+                saying hi.
+              </a>
             </h2>
           </div>
         </div>
