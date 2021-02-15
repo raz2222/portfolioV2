@@ -7,7 +7,7 @@
 .aboutMain {
   background-color: #25272a;
   background-size: cover;
-  height: 170vh;
+  height: 115vh;
 }
 ul.skills-list {
   display: grid;
@@ -43,6 +43,7 @@ ul.skills-list li::after {
 
 p#aboutHeader {
   color: #6c6ed3;
+  margin-top: 35px;
 }
 *.circle-sm.tech {
   margin: 0;

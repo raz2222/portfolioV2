@@ -7,7 +7,7 @@
 .contactMain {
   background-color: #24282a;
   background-size: cover;
-  height: 135vh;
+  height: 115vh;
   padding-top: 50px;
 }
 
@@ -85,4 +85,8 @@ a {
     display: flex;
     flex-direction: row;
   }
+}
+
+.razLogo {
+  margin: 0;
 }

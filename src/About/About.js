@@ -13,16 +13,11 @@ function About(props) {
       <div className="container">
         <div className="row">
           <div className="col">
-            <div className="circle-purple"></div>
-            <div className="circle-green"></div>
             <p id="aboutHeader">Introduction</p>
             <h1>
               Hello! I'm Raz<br></br>Avramov{" "}
             </h1>
-            <h2>
-              Every great design begins with an<br></br>even better story
-            </h2>
-            <p>Hello! I'm Raz, a Front-End Developer based in Ramat-Gan, IL.</p>
+            <p>Hi! I'm Raz, a Front-End Developer based in Ramat-Gan, IL.</p>
             <p>
               I enjoy creating things that live on the internet, whether that be
               websites, applications, or anything in between.
