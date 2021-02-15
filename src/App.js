@@ -62,7 +62,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <div className="container">
             <div className="row" id="mainRow">
-              <div className="col-sm-12 col-lg-6">
+              <div className="col-sm-12 col-lg-6" id="hero">
                 <div data-aos="fade-left" data-aos-delay="200">
                   <div className="circle-purple"></div>
                 </div>

@@ -168,3 +168,14 @@ button.navbar-toggler {
     display: flex;
   }
 }
+
+@media only screen and (min-width: 990px) {
+  /* For tablets: */
+  #mainRow {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #hero {
+    padding-left: 150px;
+  }
+}

@@ -14,7 +14,7 @@ function Projects(props) {
                 <p className="projectOverline">Featured Project</p>
                 <h3 className="projectTitle">OctoProfile</h3>
                 <div className="productImage">
-                  <box-icon name="cloud-light-rain" color="#6c6ed3"></box-icon>{" "}
+                  <box-icon name="cloud-light-rain " color="#6c6ed3"></box-icon>{" "}
                 </div>
                 <div className="projectDescription">
                   <p></p>
