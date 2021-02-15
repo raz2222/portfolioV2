@@ -7,7 +7,7 @@
 .aboutMain {
   background-color: #25272a;
   background-size: cover;
-  height: 125vh;
+  height: 170vh;
 }
 ul.skills-list {
   display: grid;
@@ -97,4 +97,10 @@ p#aboutHeader {
   height: 50px;
   margin: 2px;
   position: absolute;
+}
+
+#netcraft {
+  color: #6c6ed3;
+  text-decoration: none;
+  background-color: transparent;
 }

@@ -4,7 +4,7 @@ import "../Mail/Mail.css";
 function Mail(props) {
   return (
     <div className="language" href="index.html">
-      <box-icon name="envelope" color="#6c6ed3"></box-icon>
+      <box-icon name="envelope" color="#ebebeb"></box-icon>
       <ul className="buttonMenu" id="buttonMenu">
         <li className="buttonMenu1">
           <a href="https://github.com/bchiang7" aria-label="GitHub">

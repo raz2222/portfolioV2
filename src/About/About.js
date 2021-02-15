@@ -29,8 +29,10 @@ function About(props) {
             </p>
             <p>
               Shortly after receiving my Front-End Developer certificate from{" "}
-              <a href="https://netcraftacademy.co.il/">Netcraft Academy</a>, I
-              started my own freelance business, I work on a variety of
+              <a id="netcraft" href="https://netcraftacademy.co.il/">
+                Netcraft Academy
+              </a>
+              , I started my own freelance business, I work on a variety of
               interesting projects.
             </p>
             <p>

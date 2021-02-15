@@ -61,7 +61,7 @@ function App() {
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
           <div className="container">
-            <div className="row">
+            <div className="row" id="mainRow">
               <div className="col-sm-12 col-lg-6">
                 <div data-aos="fade-left" data-aos-delay="200">
                   <div className="circle-purple"></div>
@@ -90,8 +90,6 @@ function App() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="row">
               <div className="col-sm-12 col-lg-6">
                 <p className="header-title">Front-End Developer</p>
                 <h1>Talk is cheap.</h1>
@@ -100,11 +98,12 @@ function App() {
                   I design and code beautifully simple things,<br></br>and i
                   love what i do.
                 </p>
-                <button>LET'S CHAT!</button>
+                <button id="Chat">LET'S CHAT!</button>
               </div>
             </div>
           </div>
         </div>
+
         <Mail />
         <About />
         <Projects />
