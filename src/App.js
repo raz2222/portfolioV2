@@ -90,7 +90,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12 col-lg-6">
+              <div className="col-sm-12 col-lg-6" id="heroText">
                 <p className="header-title">Front-End Developer</p>
                 <h1>Talk is cheap.</h1>
                 <h2>Show me the code</h2>

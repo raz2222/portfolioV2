@@ -9,6 +9,7 @@
   background-size: cover;
   height: 115vh;
   padding-top: 50px;
+  position: relative;
 }
 
 #Contact.container {
@@ -84,6 +85,20 @@ a {
   #credits {
     display: flex;
     flex-direction: row;
+  }
+  .circle-xl-contact {
+    margin-left: 400px;
+  }
+  .contactMain {
+    height: 110vh;
+  }
+  #social {
+    margin: 20px;
+    align-items: center;
+    padding-left: 250px;
+  }
+  #credits {
+    padding-left: 400px;
   }
 }
 

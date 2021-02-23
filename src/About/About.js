@@ -12,7 +12,7 @@ function About(props) {
     <div className="aboutMain">
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col-sm-12 col-lg-6">
             <p id="aboutHeader">Introduction</p>
             <h1>
               Hello! I'm Raz<br></br>Avramov{" "}
@@ -34,7 +34,8 @@ function About(props) {
               Now i'm looking for my first Junior Front-End Developer position.
             </p>
             <p>Here are a few technologies I've been working with recently:</p>
-
+          </div>
+          <div className="col-sm-12 col-lg-6">
             <ul className="technologies">
               <li>
                 {" "}

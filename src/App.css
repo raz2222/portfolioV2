@@ -10,7 +10,7 @@ html {
 .Main {
   background-color: #2c3032;
   background-size: cover;
-  height: 115vh;
+  height: 120vh;
   padding-top: 50px;
 }
 .App-logo {
@@ -177,5 +177,14 @@ button.navbar-toggler {
   }
   #hero {
     padding-left: 150px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Main {
+    height: 80vh;
+  }
+  #heroText {
+    padding-top: 100px;
   }
 }

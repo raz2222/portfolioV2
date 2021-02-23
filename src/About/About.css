@@ -116,3 +116,12 @@ p#aboutHeader {
     padding-left: 150px;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .aboutMain {
+    height: 90vh;
+  }
+  .technologies {
+    padding-top: 200px;
+  }
+}
