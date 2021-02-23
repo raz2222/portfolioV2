@@ -213,3 +213,7 @@ svg {
   height: fit-content;
   transform: rotateY(180deg);
 }
+
+.cardTech {
+  color: #6c6ed3;
+}

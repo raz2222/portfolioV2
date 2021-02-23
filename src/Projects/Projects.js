@@ -5,6 +5,8 @@ function Projects(props) {
   return (
     <div className="projectsMain">
       <div className="container">
+        <h1>Projects</h1>
+
         <div className="row">
           <div className="col-sm-6">
             {" "}
@@ -84,9 +86,16 @@ function Projects(props) {
                   <h3 className="projectTitle">React weather app</h3>
                 </div>
                 <div className="flip-card-back">
-                  <h1>John Doe</h1>
-                  <p>Architect & Engineer</p>
-                  <p>We love that guy</p>
+                  <h1>React weather app</h1>
+                  <p>
+                    {" "}
+                    A simple react weather app using an api to fetch <br></br>
+                    the weather data, <br></br>and some weather visualizations
+                    shown if hot or cold.
+                  </p>
+                  <p className="cardTech">
+                    Technologies: React.js, open weather map API.
+                  </p>
                   <div className="projectLinks">
                     <div className="circle-sm-links">
                       <a
@@ -110,7 +119,7 @@ function Projects(props) {
                     </div>
                     <div className="circle-sm-links">
                       <a
-                        href="https://octoprofile.now.sh"
+                        href="https://react-weather-live-app.herokuapp.com/"
                         aria-label="External Link"
                         className="external"
                       >
