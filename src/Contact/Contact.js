@@ -70,11 +70,9 @@ function Contact(props) {
                   ></box-icon>
                 </a>
               </li>
-              <li></li>
             </ul>
           </div>
           <div className="col-sm-12" id="credits">
-            <p>Raz Avramov</p>
             <p>Designed & Built by Raz Avramov</p>
           </div>
         </div>
