@@ -33,9 +33,12 @@ function About(props) {
             <p>
               Now i'm looking for my first Junior Front-End Developer position.
             </p>
-            <p>Here are a few technologies I've been working with recently:</p>
           </div>
-          <div className="col-sm-12 col-lg-6">
+          <div className="col-sm-12 col-lg-6" id="logoList">
+            <p className="listHeader">
+              Here are a few technologies I've been working with recently:
+            </p>
+
             <ul className="technologies">
               <li>
                 {" "}

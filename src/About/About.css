@@ -7,7 +7,9 @@
 .aboutMain {
   background-color: #25272a;
   background-size: cover;
-  height: 115vh;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
 }
 ul.skills-list {
   display: grid;
@@ -44,14 +46,15 @@ ul.skills-list li::after {
 p#aboutHeader {
   color: #6c6ed3;
   margin-top: 35px;
+  font-size: 25px;
+  font-weight: 800;
 }
 *.circle-sm.tech {
   margin: 0;
   padding: 0;
-  background-color: #24282a;
   border-radius: 50px;
-  background: #2c2f32;
-  box-shadow: 5px 5px 10px #25282b, -5px -5px 10px #33363a;
+  background: #24282a;
+  box-shadow: 5px 5px 10px #1f2224, -5px -5px 10px #292e30;
   width: 55px;
   height: 55px;
   margin: 10px;
@@ -123,5 +126,72 @@ p#aboutHeader {
   }
   .technologies {
     padding-top: 200px;
+  }
+  .circle-sm.tech {
+    margin: 0;
+    padding: 0;
+    border-radius: 50px;
+    background: #24282a;
+    box-shadow: 5px 5px 10px #1f2224, -5px -5px 10px #292e30;
+    width: 105px;
+    height: 105px;
+    margin: 10px;
+    margin-left: 20px;
+  }
+  .jsLogoSm {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    position: absolute;
+  }
+
+  .reactLogoSm {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    position: absolute;
+  }
+
+  .htmlLogo {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    position: absolute;
+  }
+
+  .cssLogoSm {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    position: absolute;
+  }
+
+  .gitLogoSm {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    position: absolute;
+  }
+
+  .wordpressLogo {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    position: absolute;
+  }
+  ul.technologies {
+    margin-left: 0px;
+    margin-top: -30px;
+    padding: 20px;
+  }
+  p.listHeader {
+    text-align: center;
+    font-weight: 800;
+    font-size: 17px;
+    color: #6c6ed3;
+    padding-bottom: 30px;
+  }
+  #logoList {
+    padding-top: 230px;
   }
 }

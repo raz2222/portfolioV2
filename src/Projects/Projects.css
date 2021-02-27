@@ -7,12 +7,13 @@
 .projectsMain {
   background-color: #2c2f32;
   background-size: cover;
-  height: 200vh;
+  height: 100%;
   width: fit-content;
   position: relative;
   display: grid;
-  width: 100vw;
+  width: 100%;
   align-items: center;
+  overflow: hidden;
 }
 
 .projectOverline {
@@ -99,6 +100,8 @@ img.weatherImg {
   margin-left: 15px;
 }
 
+.circle-md {
+}
 .projectCard {
   border-radius: 15px;
   background: #2c2f32;
@@ -190,8 +193,29 @@ svg {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  padding: 20px;
 }
-
+#card1 {
+  background-image: url("../Assets/weatherApp.png");
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+#card2 {
+  background-image: url("../Assets/razImage.png");
+  background-size: cover;
+  overflow: hidden;
+}
+#card3 {
+  background-image: url("../Assets/razImage.png");
+  background-size: cover;
+  overflow: hidden;
+}
+#card4 {
+  background-image: url("../Assets/polywebImg.png");
+  background-size: cover;
+  overflow: hidden;
+}
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   border-radius: 15px;
@@ -216,4 +240,15 @@ svg {
 
 .cardTech {
   color: #6c6ed3;
+}
+
+p.projectsHeader {
+  color: #6c6ed3;
+  margin-top: 35px;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.flip-card-back h1 {
+  font-size: 17px;
 }

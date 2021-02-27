@@ -7,7 +7,7 @@
 .contactMain {
   background-color: #24282a;
   background-size: cover;
-  height: 115vh;
+  height: 100%;
   padding-top: 50px;
   position: relative;
 }
@@ -63,7 +63,7 @@ a {
   box-shadow: 5px 5px 10px #1f2224, -5px -5px 10px #292e30;
   width: 300px;
   height: 300px;
-  margin: 30px;
+  margin: 25px;
 }
 
 #button {
@@ -78,7 +78,7 @@ a {
 #social {
   margin: 20px;
   align-items: center;
-  padding-left: 70px;
+  padding-left: 45px;
 }
 
 @media only screen and (min-width: 768px) {

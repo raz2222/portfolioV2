@@ -1,12 +1,27 @@
 .circle-menu {
   border-radius: 50px;
   background: #6c6ed3;
-  box-shadow: 5px 5px 10px #25282b, -5px -5px 10px #33363a;
   position: fixed;
   display: inline-block;
   width: 50px;
   height: 50px;
   bottom: 20px;
   z-index: 99999;
-  margin-left: 310px;
+  margin-left: 340px;
+}
+
+box-icon {
+  margin-top: 10px;
+  margin-left: 13px;
+}
+.cv {
+  margin-top: -35px;
+  color: #fff;
+  margin-left: 13px;
+}
+
+@media only screen and (min-width: 768px) {
+  .circle-menu {
+    visibility: hidden;
+  }
 }
